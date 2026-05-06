@@ -17,7 +17,7 @@ from sklearn.preprocessing import StandardScaler
 model = pickle.load(open('rf_model.pkl','rb'))
 
 # title for app
-st.title("Heart Attack Risk Prediction App")
+st.title("Heart Disease Prediction App")
 
 # create input features
 
